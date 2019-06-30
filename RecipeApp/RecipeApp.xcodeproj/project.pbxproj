@@ -13,6 +13,8 @@
 		DA34489022C9202D001E5BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA34488E22C9202D001E5BFB /* LaunchScreen.storyboard */; };
 		DAF4DB0122C923EF0016A80D /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4DB0022C923EF0016A80D /* CustomColor.swift */; };
 		DAF4DB0422C925CA0016A80D /* LoginSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4DB0322C925CA0016A80D /* LoginSignUpViewController.swift */; };
+		DAF4DB0822C934A30016A80D /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4DB0722C934A30016A80D /* CustomButton.swift */; };
+		DAF4DB0A22C93A550016A80D /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4DB0922C93A550016A80D /* CustomLabel.swift */; };
 		FDF51B60A69E7829396DEFC1 /* libPods-RecipeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 245C963CF12BC8606D9FD2FE /* libPods-RecipeApp.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		DA34489122C9202D001E5BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAF4DB0022C923EF0016A80D /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		DAF4DB0322C925CA0016A80D /* LoginSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpViewController.swift; sourceTree = "<group>"; };
+		DAF4DB0722C934A30016A80D /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		DAF4DB0922C93A550016A80D /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				DAF4DB0022C923EF0016A80D /* CustomColor.swift */,
+				DAF4DB0722C934A30016A80D /* CustomButton.swift */,
+				DAF4DB0922C93A550016A80D /* CustomLabel.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -204,6 +210,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAF4DB0822C934A30016A80D /* CustomButton.swift in Sources */,
+				DAF4DB0A22C93A550016A80D /* CustomLabel.swift in Sources */,
 				DA34488622C9202D001E5BFB /* AppDelegate.swift in Sources */,
 				DAF4DB0422C925CA0016A80D /* LoginSignUpViewController.swift in Sources */,
 				DAF4DB0122C923EF0016A80D /* CustomColor.swift in Sources */,

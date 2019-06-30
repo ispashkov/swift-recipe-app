@@ -9,9 +9,10 @@
 import UIKit
 
 class LoginSignUpViewController: UIViewController {
-    @IBOutlet weak var loginButton: UIButton!
-    @IBOutlet weak var dontHaveAccount: UILabel!
-    @IBOutlet weak var signUpButton: UIButton!
+    @IBOutlet weak var loginButton: CustomButton!
+    @IBOutlet weak var dontHaveAccount: CustomLabel!
+    @IBOutlet weak var signUpButton: CustomButton!
+    @IBOutlet weak var logoLabel: CustomLabel!
     
     // First laoding
     override func viewDidLoad() {
@@ -21,34 +22,12 @@ class LoginSignUpViewController: UIViewController {
     
     // Sets up UI elements
     func setUpProperties() {
-        let organe: UIColor = CustomColor(withFrame: loginButton.frame).getOrangeColor()
-        
-        //Login button
-        loginButton.layer.backgroundColor = organe.cgColor
-        loginButton.layer.cornerRadius = loginButton.layer.frame.height / 2
-        
-        //Login spacing
-        let loginSpacing = 1.5
-        let loginSpacingButtonAttributedString = NSMutableAttributedString(string: (loginButton.titleLabel?.text)!)
-        loginSpacingButtonAttributedString.addAttribute(NSAttributedString.Key.kern, value: loginSpacing, range: NSMakeRange(0, loginSpacingButtonAttributedString.length))
-        loginButton.setAttributedTitle(loginSpacingButtonAttributedString, for: .normal)
-        
-        //Label spacing
-        let labelSpacing = 1
-        let labelAttributedString = NSMutableAttributedString(string: dontHaveAccount.text!)
-        labelAttributedString.addAttribute(NSAttributedString.Key.kern, value: labelSpacing, range: NSMakeRange(0, labelAttributedString.length))
-        dontHaveAccount.attributedText = labelAttributedString
-        
-        //Sign Up button
-        signUpButton.layer.borderWidth = 2
-        signUpButton.layer.borderColor = organe.cgColor
-        signUpButton.layer.cornerRadius = loginButton.layer.frame.height / 2
-        
-        let spacing = 1.5
-        let singUpSpacingButtonAttributedString = NSMutableAttributedString(string: (signUpButton.titleLabel?.text)!)
-        singUpSpacingButtonAttributedString.addAttribute(NSAttributedString.Key.kern, value: spacing, range: NSMakeRange(0, singUpSpacingButtonAttributedString.length))
-        signUpButton.setAttributedTitle(singUpSpacingButtonAttributedString, for: .normal)
-        
+        signUpButton.makeOutlineButton()
+        logoLabel.setSpacing(space: 1.75)
     }
     
+    // Hide status bar
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
 }

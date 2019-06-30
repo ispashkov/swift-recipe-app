@@ -10,6 +10,7 @@ import Foundation
 import ChameleonFramework
 
 struct CustomColor {
+    
     let orange: UIColor!
     
     init(withFrame: CGRect) {
