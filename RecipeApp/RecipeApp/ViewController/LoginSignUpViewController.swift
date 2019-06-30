@@ -25,9 +25,4 @@ class LoginSignUpViewController: UIViewController {
         signUpButton.makeOutlineButton()
         logoLabel.setSpacing(space: 1.75)
     }
-    
-    // Hide status bar
-    override var prefersStatusBarHidden: Bool {
-        return true
-    }
 }

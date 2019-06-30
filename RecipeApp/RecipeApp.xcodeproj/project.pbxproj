@@ -15,6 +15,13 @@
 		DAF4DB0422C925CA0016A80D /* LoginSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4DB0322C925CA0016A80D /* LoginSignUpViewController.swift */; };
 		DAF4DB0822C934A30016A80D /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4DB0722C934A30016A80D /* CustomButton.swift */; };
 		DAF4DB0A22C93A550016A80D /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4DB0922C93A550016A80D /* CustomLabel.swift */; };
+		DAF4DB0C22C93E8C0016A80D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4DB0B22C93E8C0016A80D /* LoginViewController.swift */; };
+		DAF4DB0E22C943F90016A80D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4DB0D22C943F90016A80D /* CustomTextField.swift */; };
+		DAF4DB1022C94BE10016A80D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4DB0F22C94BE10016A80D /* SignUpViewController.swift */; };
+		DAF4DB1422C94E040016A80D /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4DB1322C94E040016A80D /* CustomNavigationController.swift */; };
+		DAF4DB1922C952300016A80D /* ic_arrow_back@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF4DB1622C9522F0016A80D /* ic_arrow_back@1x.png */; };
+		DAF4DB1A22C952300016A80D /* ic_arrow_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF4DB1722C9522F0016A80D /* ic_arrow_back@3x.png */; };
+		DAF4DB1B22C952300016A80D /* ic_arrow_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF4DB1822C9522F0016A80D /* ic_arrow_back@2x.png */; };
 		FDF51B60A69E7829396DEFC1 /* libPods-RecipeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 245C963CF12BC8606D9FD2FE /* libPods-RecipeApp.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +39,13 @@
 		DAF4DB0322C925CA0016A80D /* LoginSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpViewController.swift; sourceTree = "<group>"; };
 		DAF4DB0722C934A30016A80D /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		DAF4DB0922C93A550016A80D /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		DAF4DB0B22C93E8C0016A80D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DAF4DB0D22C943F90016A80D /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DAF4DB0F22C94BE10016A80D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DAF4DB1322C94E040016A80D /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		DAF4DB1622C9522F0016A80D /* ic_arrow_back@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_arrow_back@1x.png"; sourceTree = "<group>"; };
+		DAF4DB1722C9522F0016A80D /* ic_arrow_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_arrow_back@3x.png"; sourceTree = "<group>"; };
+		DAF4DB1822C9522F0016A80D /* ic_arrow_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_arrow_back@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +98,7 @@
 		DA34488422C9202D001E5BFB /* RecipeApp */ = {
 			isa = PBXGroup;
 			children = (
+				DAF4DB1522C951D60016A80D /* Resources */,
 				DAF4DB0222C925780016A80D /* ViewController */,
 				DAF4DAFF22C923BB0016A80D /* Custom */,
 				DA34488522C9202D001E5BFB /* AppDelegate.swift */,
@@ -101,6 +116,8 @@
 				DAF4DB0022C923EF0016A80D /* CustomColor.swift */,
 				DAF4DB0722C934A30016A80D /* CustomButton.swift */,
 				DAF4DB0922C93A550016A80D /* CustomLabel.swift */,
+				DAF4DB0D22C943F90016A80D /* CustomTextField.swift */,
+				DAF4DB1322C94E040016A80D /* CustomNavigationController.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -109,8 +126,20 @@
 			isa = PBXGroup;
 			children = (
 				DAF4DB0322C925CA0016A80D /* LoginSignUpViewController.swift */,
+				DAF4DB0B22C93E8C0016A80D /* LoginViewController.swift */,
+				DAF4DB0F22C94BE10016A80D /* SignUpViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DAF4DB1522C951D60016A80D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DAF4DB1622C9522F0016A80D /* ic_arrow_back@1x.png */,
+				DAF4DB1822C9522F0016A80D /* ic_arrow_back@2x.png */,
+				DAF4DB1722C9522F0016A80D /* ic_arrow_back@3x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +203,9 @@
 			files = (
 				DA34489022C9202D001E5BFB /* LaunchScreen.storyboard in Resources */,
 				DA34488D22C9202D001E5BFB /* Assets.xcassets in Resources */,
+				DAF4DB1922C952300016A80D /* ic_arrow_back@1x.png in Resources */,
+				DAF4DB1B22C952300016A80D /* ic_arrow_back@2x.png in Resources */,
+				DAF4DB1A22C952300016A80D /* ic_arrow_back@3x.png in Resources */,
 				DA34488B22C9202D001E5BFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +242,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAF4DB0E22C943F90016A80D /* CustomTextField.swift in Sources */,
+				DAF4DB0C22C93E8C0016A80D /* LoginViewController.swift in Sources */,
+				DAF4DB1022C94BE10016A80D /* SignUpViewController.swift in Sources */,
+				DAF4DB1422C94E040016A80D /* CustomNavigationController.swift in Sources */,
 				DAF4DB0822C934A30016A80D /* CustomButton.swift in Sources */,
 				DAF4DB0A22C93A550016A80D /* CustomLabel.swift in Sources */,
 				DA34488622C9202D001E5BFB /* AppDelegate.swift in Sources */,
